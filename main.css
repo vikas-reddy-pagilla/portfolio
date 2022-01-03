@@ -1,0 +1,101 @@
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+main {
+  padding-left: 100px;
+  background-color: #1d1d1d;
+  color: white;
+}
+
+header {
+  background-color: #1e1e1e;
+  color: white;
+  position: fixed;
+  width: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+header > * {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-preferred-size: 0;
+      flex-basis: 0;
+}
+
+header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header nav li {
+  padding: 30px 0px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header .logo {
+  font-size: 80px;
+  margin: 0 auto;
+}
+
+.intro {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.intro h1 {
+  font-size: 80px;
+}
+
+.intro h2 {
+  font-family: arial;
+  margin-bottom: 30px;
+}
+
+.container {
+  padding: 0 80px;
+}
+
+.button {
+  border: 1px solid white;
+  padding: 16px 60px;
+}
+/*# sourceMappingURL=main.css.map */
