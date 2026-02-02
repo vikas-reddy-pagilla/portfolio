@@ -17,15 +17,20 @@
            <a href="#home">VRP</a>
        </div>
        <nav>
-           <li><a href="#home">Home</a></li>
-           <li><a href="#about">About</a></li>
-           <li><a href="#experience">Experience</a></li>
-           <li><a href="#skills">Skills</a></li>
-           <li><a href="#contact">Contact</a></li>
+           <li><a href="#home" data-en="Home" data-pt="Início">Home</a></li>
+           <li><a href="#about" data-en="About" data-pt="Sobre">About</a></li>
+           <li><a href="#experience" data-en="Experience" data-pt="Experiência">Experience</a></li>
+           <li><a href="#skills" data-en="Skills" data-pt="Habilidades">Skills</a></li>
+           <li><a href="#contact" data-en="Contact" data-pt="Contato">Contact</a></li>
        </nav>
        <div class="social-links">
            <a href="https://linkedin.com/in/pagilla" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
            <a href="https://github.com/vikas-reddy-pagilla" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+       </div>
+       <div class="language-toggle">
+           <button id="langToggle" class="lang-btn" title="Switch Language">
+               <span class="lang-flag">🇧🇷</span>
+           </button>
        </div>
    </header> 
    
@@ -34,23 +39,23 @@
        <section id="home" class="container intro">
            <div class="intro-content">
                <div class="greeting">
-                   <span class="wave">👋</span> Hi, I'm
+                   <span class="wave">👋</span> <span data-en="Hi, I'm" data-pt="Oi, eu sou">Hi, I'm</span>
                </div>
                <h1 class="name">
                    Vikas Reddy Pagilla
                </h1>
                <h2 class="title">
-                   Site Reliability Engineer <span class="highlight">@ Tata Consultancy Services</span>
+                   <span data-en="Site Reliability Engineer" data-pt="Engenheiro de Confiabilidade de Site">Site Reliability Engineer</span> <span class="highlight">@ Tata Consultancy Services</span>
                </h2>
-               <p class="subtitle">
+               <p class="subtitle" data-en="Specializing in Electronic Trading Platforms | 5+ Years Experience in High-Frequency Trading Systems" data-pt="Especializado em Plataformas de Negociação Eletrônica | 5+ Anos de Experiência em Sistemas de Alta Frequência">
                    Specializing in Electronic Trading Platforms | 5+ Years Experience in High-Frequency Trading Systems
                </p>
                <div class="cta-buttons">
-                   <a href="#contact" class="button primary">Get In Touch</a>
-                   <a href="#experience" class="button secondary">View Experience</a>
+                   <a href="#contact" class="button primary" data-en="Get In Touch" data-pt="Entre em Contato">Get In Touch</a>
+                   <a href="#experience" class="button secondary" data-en="View Experience" data-pt="Ver Experiência">View Experience</a>
                </div>
                <div class="scroll-indicator">
-                   <span>Scroll Down</span>
+                   <span data-en="Scroll Down" data-pt="Role para Baixo">Scroll Down</span>
                    <i class="fas fa-arrow-down"></i>
                </div>
            </div>
@@ -59,16 +64,16 @@
        <!-- About Section -->
        <section id="about" class="container about-section">
            <div class="section-header">
-               <h2 class="section-title">About Me</h2>
+               <h2 class="section-title" data-en="About Me" data-pt="Sobre Mim">About Me</h2>
                <div class="title-underline"></div>
            </div>
            <div class="about-content">
                <div class="about-text">
-                   <p class="lead-text">
+                   <p class="lead-text" data-en="I'm a Site Reliability Engineer with 5+ years of experience supporting and improving the reliability of electronic trading platforms in an investment banking environment." data-pt="Sou um Engenheiro de Confiabilidade de Site com mais de 5 anos de experiência apoiando e melhorando a confiabilidade de plataformas de negociação eletrônica em um ambiente de banco de investimento.">
                        I'm a Site Reliability Engineer with <strong>5+ years of experience</strong> supporting and improving the reliability of 
                        <strong>electronic trading platforms</strong> in an investment banking environment.
                    </p>
-                   <p>
+                   <p data-en="I specialize in owning production systems during live market hours, handling high-severity incidents, and supporting FIX-based trading workflows end-to-end. My expertise lies in maintaining system reliability for latency-sensitive trading platforms where milliseconds matter." data-pt="Sou especializado em gerenciar sistemas de produção durante o horário de mercado ao vivo, lidando com incidentes de alta gravidade e apoiando fluxos de trabalho de negociação baseados em FIX de ponta a ponta. Minha experiência está em manter a confiabilidade do sistema para plataformas de negociação sensíveis à latência, onde milissegundos importam.">
                        I specialize in owning production systems during live market hours, handling high-severity incidents, 
                        and supporting FIX-based trading workflows end-to-end. My expertise lies in maintaining system reliability 
                        for latency-sensitive trading platforms where milliseconds matter.
@@ -76,23 +81,23 @@
                    <div class="highlights-grid">
                        <div class="highlight-item">
                            <i class="fas fa-server"></i>
-                           <h4>Production Reliability</h4>
-                           <p>24/7 system ownership during live trading hours</p>
+                           <h4 data-en="Production Reliability" data-pt="Confiabilidade de Produção">Production Reliability</h4>
+                           <p data-en="24/7 system ownership during live trading hours" data-pt="Gerenciamento de sistemas 24/7 durante horários de negociação">24/7 system ownership during live trading hours</p>
                        </div>
                        <div class="highlight-item">
                            <i class="fas fa-bolt"></i>
-                           <h4>Incident Leadership</h4>
-                           <p>Calm & effective crisis management under pressure</p>
+                           <h4 data-en="Incident Leadership" data-pt="Liderança de Incidentes">Incident Leadership</h4>
+                           <p data-en="Calm & effective crisis management under pressure" data-pt="Gestão de crises calma e eficaz sob pressão">Calm & effective crisis management under pressure</p>
                        </div>
                        <div class="highlight-item">
                            <i class="fas fa-chart-line"></i>
-                           <h4>Performance Optimization</h4>
-                           <p>Capacity planning for high-frequency trading</p>
+                           <h4 data-en="Performance Optimization" data-pt="Otimização de Desempenho">Performance Optimization</h4>
+                           <p data-en="Capacity planning for high-frequency trading" data-pt="Planejamento de capacidade para negociação de alta frequência">Capacity planning for high-frequency trading</p>
                        </div>
                        <div class="highlight-item">
                            <i class="fas fa-code"></i>
-                           <h4>Automation</h4>
-                           <p>Reducing toil through Python & shell scripting</p>
+                           <h4 data-en="Automation" data-pt="Automação">Automation</h4>
+                           <p data-en="Reducing toil through Python & shell scripting" data-pt="Reduzindo trabalho manual com Python e shell scripting">Reducing toil through Python & shell scripting</p>
                        </div>
                    </div>
                </div>
@@ -102,7 +107,7 @@
        <!-- Experience Section -->
        <section id="experience" class="container experience-section">
            <div class="section-header">
-               <h2 class="section-title">Professional Experience</h2>
+               <h2 class="section-title" data-en="Professional Experience" data-pt="Experiência Profissional">Professional Experience</h2>
                <div class="title-underline"></div>
            </div>
            <div class="timeline">
@@ -157,7 +162,7 @@
        <!-- Skills Section -->
        <section id="skills" class="container skills-section">
            <div class="section-header">
-               <h2 class="section-title">Technical Skills</h2>
+               <h2 class="section-title" data-en="Technical Skills" data-pt="Habilidades Técnicas">Technical Skills</h2>
                <div class="title-underline"></div>
            </div>
            <div class="skills-grid">
@@ -237,7 +242,7 @@
        <!-- Education & Certifications -->
        <section id="education" class="container education-section">
            <div class="section-header">
-               <h2 class="section-title">Education & Certifications</h2>
+               <h2 class="section-title" data-en="Education & Certifications" data-pt="Educação e Certificações">Education & Certifications</h2>
                <div class="title-underline"></div>
            </div>
            <div class="education-grid">
@@ -279,11 +284,11 @@
        <!-- Contact Section -->
        <section id="contact" class="container contact-section">
            <div class="section-header">
-               <h2 class="section-title">Get In Touch</h2>
+               <h2 class="section-title" data-en="Get In Touch" data-pt="Entre em Contato">Get In Touch</h2>
                <div class="title-underline"></div>
            </div>
            <div class="contact-content">
-               <p class="contact-intro">
+               <p class="contact-intro" data-en="I'm currently open to new opportunities in Site Reliability Engineering, DevOps, and Backend Engineering roles. Let's connect if you're looking for someone with expertise in high-reliability trading systems." data-pt="Estou atualmente aberto a novas oportunidades em Engenharia de Confiabilidade de Site, DevOps e funções de Engenharia Backend. Vamos nos conectar se você está procurando alguém com experiência em sistemas de negociação de alta confiabilidade.">
                    I'm currently open to new opportunities in Site Reliability Engineering, DevOps, and Backend Engineering roles. 
                    Let's connect if you're looking for someone with expertise in high-reliability trading systems.
                </p>
@@ -296,12 +301,12 @@
                    <a href="https://linkedin.com/in/pagilla" class="contact-card" target="_blank">
                        <i class="fab fa-linkedin"></i>
                        <h4>LinkedIn</h4>
-                       <p>Connect with me</p>
+                       <p data-en="Connect with me" data-pt="Conecte-se comigo">Connect with me</p>
                    </a>
                    <a href="https://github.com/vikas-reddy-pagilla" class="contact-card" target="_blank">
                        <i class="fab fa-github"></i>
                        <h4>GitHub</h4>
-                       <p>View my projects</p>
+                       <p data-en="View my projects" data-pt="Ver meus projetos">View my projects</p>
                    </a>
                </div>
            </div>
@@ -309,9 +314,52 @@
    </main>
 
    <footer>
-       <p>&copy; 2026 Vikas Reddy Pagilla. Built with passion for reliability.</p>
+       <p data-en="&copy; 2026 Vikas Reddy Pagilla. Built with passion for reliability." data-pt="&copy; 2026 Vikas Reddy Pagilla. Feito com paixão pela confiabilidade.">&copy; 2026 Vikas Reddy Pagilla. Built with passion for reliability.</p>
    </footer>
 
+   <script>
+       // Language Toggle Functionality
+       let currentLang = localStorage.getItem('language') || 'en';
+       
+       function setLanguage(lang) {
+           currentLang = lang;
+           localStorage.setItem('language', lang);
+           
+           // Update all elements with data-en and data-pt attributes
+           document.querySelectorAll('[data-en][data-pt]').forEach(element => {
+               const text = element.getAttribute(`data-${lang}`);
+               if (text) {
+                   if (element.tagName === 'A' || element.tagName === 'BUTTON') {
+                       element.textContent = text;
+                   } else {
+                       element.innerHTML = text.replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+                   }
+               }
+           });
+           
+           // Update flag icon
+           const flagSpan = document.querySelector('.lang-flag');
+           const langBtn = document.getElementById('langToggle');
+           if (lang === 'en') {
+               flagSpan.textContent = '🇧🇷';
+               langBtn.title = 'Mudar para Português';
+           } else {
+               flagSpan.textContent = '🇺🇸';
+               langBtn.title = 'Switch to English';
+           }
+       }
+       
+       // Initialize language on page load
+       document.addEventListener('DOMContentLoaded', () => {
+           setLanguage(currentLang);
+           
+           // Language toggle button
+           document.getElementById('langToggle').addEventListener('click', () => {
+               const newLang = currentLang === 'en' ? 'pt' : 'en';
+               setLanguage(newLang);
+           });
+       });
+   </script>
    <script>
        // Smooth scrolling for navigation links
        document.querySelectorAll('a[href^="#"]').forEach(anchor => {

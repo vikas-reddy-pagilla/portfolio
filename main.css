@@ -166,6 +166,36 @@ header nav a.active::before {
   transform: translateY(-3px);
 }
 
+.language-toggle {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+}
+
+.lang-btn {
+  background: var(--bg-card);
+  border: 2px solid var(--border-color);
+  border-radius: 50%;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all var(--transition-medium);
+  font-size: 1.5rem;
+}
+
+.lang-btn:hover {
+  border-color: var(--primary-color);
+  background: var(--primary-color);
+  transform: scale(1.1);
+}
+
+.lang-flag {
+  font-size: 1.3rem;
+}
+
 /* ========================================
    MAIN CONTENT LAYOUT
    ======================================== */
